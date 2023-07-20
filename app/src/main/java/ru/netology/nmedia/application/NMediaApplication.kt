@@ -12,6 +12,7 @@ import javax.inject.Inject
 class NMediaApplication : Application() {
     private val appScope = CoroutineScope(Dispatchers.Default)
 
+
     @Inject
     lateinit var auth: AppAuth
 
